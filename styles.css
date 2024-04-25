@@ -5,21 +5,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --letterspace05: 0.5px;
-  --letterspace08: 0.8px;
-  --lh-jp: 1.4rem;
-  --lh-eng: 1.2rem;
-  --fontsize-main-jp: 16px;
-  --a1: white;
-  --a2: #fff9bf;
-  --a3: silver;
-  --a4: darkgray;
-  --a5: #0fd14c;
-  --a6: #000;
-  --a7: #fffdef;
-}
-
 
 
 @font-face {
@@ -35,10 +20,10 @@
 
 body {
   background-color:var(--a2);
+    font-family: Hershey-Futural-30;
 } 
 
 html, body {
-  font-family: Hershey-Futural-30,sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 

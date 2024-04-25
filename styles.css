@@ -9,23 +9,25 @@
 
 @font-face {
   font-family: Hershey-Futural-30;
-  src: url(/font/Hershey-Futural-30.woff) format("woff"),url(/ysn/font/Hershey-Futural-30.ttf) format("truetype")
+  src: url(/test2/font/Hershey-Futural-30.woff) format("woff"),url(/hersheytest/font/Hershey-Futural-30.ttf) format("truetype")
 }
 
 @font-face {
   font-family: Hershey-Futural--15;
-  src: url(/font/Hershey-Futural--15.woff) format("woff"),url(/ysn/font/Hershey-Futural--15.ttf) format("truetype")
+  src: url(test2/font/Hershey-Futural--15.woff) format("woff"),url(/ysn/font/Hershey-Futural--15.ttf) format("truetype")
 }
 
+
+html, body {
+  -webkit-text-size-adjust: 100%;
+}
 
 body {
   background-color:var(--a2);
     font-family: Hershey-Futural-30;
 } 
 
-html, body {
-  -webkit-text-size-adjust: 100%;
-}
+
 
 
 .title-jp {
@@ -42,6 +44,7 @@ html, body {
 }
 
 .title-eng {
+    font-family: Hershey-Futural-30;
   display: absolute;
   color: var(--a3);
   font-size: 23px;

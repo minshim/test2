@@ -1,58 +1,22 @@
-
-*, :after, :before {
-  margin:0; padding:0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-
 @font-face {
   font-family: Hershey-Futural-30;
-  src: url(/test2/font/Hershey-Futural-30.woff) format("woff"),url(/hersheytest/font/Hershey-Futural-30.ttf) format("truetype")
+  src: url(/hersheytest/font/Hershey-Futural-30.woff) format("woff"),url(/hersheytest/font/Hershey-Futural-30.ttf) format("truetype")
 }
 
-@font-face {
-  font-family: Hershey-Futural--15;
-  src: url(test2/font/Hershey-Futural--15.woff) format("woff"),url(/ysn/font/Hershey-Futural--15.ttf) format("truetype")
+html {
+  font-size: 18px
 }
 
-
-html, body {
-  -webkit-text-size-adjust: 100%;
+@media (min-width: 1920px) {
+  html {
+      font-size:20px
+  }
 }
 
 body {
-  background-color:var(--a2);
-    font-family: Hershey-Futural-30;
-} 
+  font-family: Hershey-Futural-30;}
 
-
-
-
-.title-jp {
-  color: var(--a3);
-  font-size: 21px;
-  /* text-align: center; */
-  margin-left: 18px;
-  padding-top: 10px;
-  margin-bottom: 2px;
-  font-family:"游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
-  display: inline-block;
-  vertical-align: sub;
-  
-}
 
 .title-eng {
-    font-family: Hershey-Futural-30;
-  display: absolute;
-  color: var(--a3);
-  font-size: 23px;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  text-wrap: balance;
-  letter-spacing: var(--letterspace05);
-  display: inline-block;
+  font-family: Hershey-Futural-30;
 }
-
-

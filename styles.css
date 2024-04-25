@@ -9,19 +9,14 @@
 }
 
 body {
-  font-family: Hershey-Futural-30;}
-
-
-
-html {
-  font-size: 18px
-}
-
-
-
-
-.title-eng {
   font-family: Hershey-Futural-30;
+ background-color:var(--a2);}
+
+
+
+body, html {
+  font-size: 18px
+  -webkit-text-size-adjust: 100%;
 }
 
 
@@ -81,7 +76,7 @@ html {
   
 }
 
-/* .title-eng {
+.title-eng {
   display: absolute;
   color: var(--a3);
   font-size: 23px;
@@ -91,7 +86,7 @@ html {
   letter-spacing: var(--letterspace05);
   display: inline-block;
 }
- */
+
 
 mark{
   color: var(--a3);
@@ -509,7 +504,9 @@ line-height: var(--lh-eng);
     left: 50%;
     top: 50%;
     z-index: 1000;
-    padding: 35px;
+    padding: 15px;
     width: 90vw;
+    height: 80vw;
+    font-size: 13px;
   }
   }

@@ -25,12 +25,12 @@
 
 @font-face {
   font-family: Hershey-Futural-30;
-  src: url(/ysn/font/Hershey-Futural-30.woff) format("woff"),url(/ysn/font/Hershey-Futural-30.ttf) format("truetype")
+  src: url(/font/Hershey-Futural-30.woff) format("woff"),url(/ysn/font/Hershey-Futural-30.ttf) format("truetype")
 }
 
 @font-face {
   font-family: Hershey-Futural--15;
-  src: url(/ysn/font/Hershey-Futural--15.woff) format("woff"),url(/ysn/font/Hershey-Futural--15.ttf) format("truetype")
+  src: url(/font/Hershey-Futural--15.woff) format("woff"),url(/ysn/font/Hershey-Futural--15.ttf) format("truetype")
 }
 
 

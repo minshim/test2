@@ -1,20 +1,23 @@
+
 @font-face {
   font-family: Hershey-Futural-30;
   src: url(/test2/font/Hershey-Futural-30.woff) format("woff"),url(/test2/font/Hershey-Futural-30.ttf) format("truetype")
 }
+@font-face {
+  font-family: Hershey-Futural--15;
+  src: url(/test2/font/Hershey-Futural--15.woff) format("woff"),url(/test2/font/Hershey-Futural--15.ttf) format("truetype")
+}
+
+body {
+  font-family: Hershey-Futural-30;}
+
+
 
 html {
   font-size: 18px
 }
 
-@media (min-width: 1920px) {
-  html {
-      font-size:20px
-  }
-}
 
-body {
-  font-family: Hershey-Futural-30;}
 
 
 .title-eng {
